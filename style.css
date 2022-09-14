@@ -1,0 +1,40 @@
+body {
+    background-image: url("Img/background.jpg");
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+  }
+.bDiv{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    width: 200px;
+    height: 70px;
+    line-height: 120%;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    padding: 10px 12px;
+    border-radius: 4px;
+    transition: background-color ease 400ms;
+}
+.button:hover{
+    color: #FFF;
+    background-color: rgb(76, 33, 119);
+}
+.score{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-size: 50px;
+    color: #FFF;
+}
